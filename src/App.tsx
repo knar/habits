@@ -69,7 +69,7 @@ function App() {
           <input
             type="range"
             min="1"
-            max="31"
+            max="30"
             value={numDays()}
             onInput={(e) => setNumDays(parseInt(e.currentTarget.value))}
           />
